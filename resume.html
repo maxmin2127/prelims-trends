@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Lato, sans-serif;
+            color: #323B4C;
+        }
+        .pfp {
+            width: 200px;
+            border-radius: 100px;
+            outline: 4px solid white;
+        }
+        .name {
+            text-align: left;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        .name, .description, .position {
+            margin-bottom: 15px;
+        }
+
+        .right, .description {
+            font-size: 14px;
+            max-width: 700px;
+            color: #737373;
+            text-align: justify;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .left {
+            background-color: #323B4C;
+            padding-right: 30px;
+            padding-bottom: 30px;
+        }
+        .left h1, .left h2, .left h3, .left h4, .left h5, .left h6, .left p, .left li{
+            color: white;
+            text-wrap: wrap;
+            max-width: 200px;
+        } .left li {
+            list-style-type: none;
+            padding-top: 20px;
+        }
+        td {
+            padding: 30px;
+            vertical-align: top;
+        }
+        .major-info {
+            padding-top: 50px;
+        } .section {
+            margin-bottom: 40px;
+        }
+        .label {
+            font-family: "Archivo Black";
+        }
+        .small-label {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+        .small-answer {
+            font-size: 13px;
+        }
+        .educ {
+            margin: 30px 0;
+        } .educ p, .educ h5{
+            margin: 8px 0;
+        } .technical-skills li, .soft-skills li {
+            margin-left: 20px;
+            margin-top: 10px;
+            font-size: 15px;
+        } .skillset{
+            margin: 20px;
+        } .skill-label {
+            margin-top: 10px;
+            font-size: 17px;
+            letter-spacing: 1px;
+        } .experiences {
+            list-style-type: none;
+            margin-top: 20px;
+        } .experiences li h4 {
+            margin-bottom: 5px;
+            font-size: 15px;
+        } .experiences li {
+            margin-bottom: 25px;
+        } .experiences li p{
+            font-size: 13px;
+            margin-bottom: 5px;
+        } .experiences li .desc{
+            font-size: 14px;
+        } .reference td {
+            padding: 0;
+            text-align: left;
+            padding: 3px 25px;
+            padding-left: 0;
+        } .reference th {
+            font-size: 17px;
+            padding: 25px;
+            padding-left: 0;
+            text-align: left;
+        }
+        
+        
+
+    </style>
+
+</head>
+<body>
+    <table>
+        
+        <!-- PERSONAL INFORMATION SECTION -->
+        <tr>
+            <td class="left">
+                <img class="pfp" src="linked_in_pfp.jpeg"  alt="Maxine Nicole Balid Bernales">
+            </td>
+            <td class="right major-info" style="padding-top: 50px;">
+                <h1 class="name">Maxine Nicole Balid Bernales</h1>  
+                <h3 class="position" style="letter-spacing: 3px; font-weight: 400;"><b>Student</b></h3> 
+                <p class="description">Dedicated 2nd Year BS Computer Science student driven by a fervor for Web Development, Data Science, and Cybersecurity. Recognized for academic excellence and active engagement in coding competitions, achieving notable success in department-wide and regional events. Proficient in a range of programming languages such as C++, Java, HTML, CSS, JavaScript, and Python, with practical experience in SASS CSS and Django, among others.</p>
+            </td>
+        </tr>
+
+        <!-- MAIN SECTION -->
+        <tr>
+            <td class="left">
+
+                <!-- contact section -->
+                <div class="section">  
+                    <h2 class="label">Contact</h2>
+                    <hr>
+                    <h4 class="small-label label">Phone</h4>
+                    <p class="small-answer">0921-688-3866</p>
+                    <h4 class="small-label label">Email</h4>
+                    <p class="small-answer">mnbernales@gbox.adnu.edu.ph</p>
+                    <h4 class="small-label label">Address</h4>
+                    <p class="small-answer">Zone 1 Sagrada Pili Camarines Sur</p>
+                </div>
+
+                <!-- education section -->
+                <div class="section">
+                    <h2 class="label">Education</h2>
+                    <hr>
+                    <div class="educ">
+                        <p class="small-answer">2020-2022</p>
+                        <h5>Science, Technology, and Mathematics Strand</h5>
+                        <i><p class="small-answer">Universidad de Sta. Isabel Naga, <br>High Honors Awardee</p></i>
+                    </div>
+                    <div class="educ">
+                        <p class="small-answer">2022-2026</p>
+                        <h5>Bachelor of Science in Computer Science</h5>
+                        <p class="small-answer">Ateneo de Naga University</p>
+                    </div>
+                </div>
+            </td>
+
+            <td class="right">
+                
+                <!-- skills section -->
+                <div class="section">
+                    <h2 class="label">Skills</h2>
+                    <hr>
+                    <h4 class="skill-label">Technical Skills</h4>
+                    <ul class="skillset technical-skills">
+                        <li>
+                            <b>Frontend Development: </b>
+                            HTML, CSS, Javascript, Bootstrap, SASS CSS, React.js, React Native, Responsive Web Design
+                        </li>
+                        <li>
+                            <b>Backend Development: </b>
+                            Django, Node.js, Express, Oracle, PostgreSQL
+                        </li>
+                        <li>
+                            <b>Programming Languages: </b>
+                            C++, Java, Python
+                        </li>
+                    </ul>
+
+                    <h4 class="skill-label">Soft Skills</h4>
+                    <ol class="skillset soft-skills">
+                        <li>Problem-Solving</li>
+                        <li>Flexibility</li>
+                        <li>Communication</li>
+                        <li>Time-Management</li>
+                    </ol>
+
+                </div>
+
+                <!-- experiences section-->
+                <div class="section">
+                    <h2 class="label">Experience</h2>
+                    <hr>
+                    <ul class="experiences">
+                        <li>
+                            <h4>ThePillars Fullstack Web Developer Apprentice</h4>
+                            <p>January 2024 - Present</p>
+                            <p class="desc">Contribute to the development and maintenance of the school publication's digital platform as a fullstack web developer apprentice.</p>
+                        </li>
+                        <li>
+                            <h4>O'Lanz Studio Lead Frontend Developer</h4>
+                            <p>December 2023 - Present</p>
+                            <p class="desc">Lead React Native frontend developer for an AppCon project aimed at developing a nurse charting system for hospitals in Naga City.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- achievements and competitions section -->
+                <div class="section">
+                    <h2 class="label">Achievements and Competitions</h2>
+                    <hr>
+                    <ul class="experiences">
+                        <li>
+                            <h4>Hack4Gov - Region V</h4>
+                            <p>September 2023  |   2nd Runner Up</p>
+                            <p class="desc">Represented Ateneo de Naga University as part of the group "AdNU'tKnow" in the Annual Hack4Gov Cybersecurity Capture-the-Flag Contest, securing the 2nd Runner Up position, demonstrating prowess in cybersecurity.</p>
+                        </li>
+                        <li>
+                            <h4>Ateneo Computer Programming Competition 2022 - Freshmen Edition</h4>
+                            
+                            <p>November 2022  |  6th Place</p>
+                            <p class="desc">Achieved 6th place out of 50 students in the elimination round, showcasing proficiency and problem-solving skills in computer programming.</p>
+                        </li>
+                        <li>
+                            <h4>Idea2Startup Pitching Event</h4>
+                            <p>October 2022</p>
+                            <p class="desc">Participated in a startup group pitching event, fostering entrepreneurial spirit and collaboration in innovative project ideation.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- certifications section-->
+                <div class="section">
+                    <h2 class="label">Certifications</h2>
+                    <hr>
+                    <ul class="experiences">
+                        <li>
+                            <h4>Introduction to Data Science</h4>
+                            <p>May 2023  |  Cisco Networking Academy</p>
+                            <p class="desc">An introductory course issued by Cisco Networking Academy about Data Science. In this course, I learned the basic concepts of Data Analytics, Data Engineering, Data Science and AI/ML related job functions. It also gave me insight into opportunities available for pursuing career in various data roles.</p>
+                        </li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+
+        <!-- BOTTOM SECTION -->
+        <tr>
+            <!-- Languages section -->
+            <td class="left">
+                <div class="section">
+                    <h2 class="label">Languages</h2>
+                    <hr>
+                    <ul class="languages">
+                        <li>English</li>
+                        <li>Filipino</li>
+                    </ul>
+                </div>
+            </td>
+
+            <!-- references section -->
+            <td class="right">
+                <div class="section">
+                    <h2 class="label">Reference</h2>
+                    <hr>
+                    <table class="reference">
+                        <tr>
+                            <th>Gabriel Angelo Catimbang</th>
+                            <th>Kyla Ronquillo</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Phone: 0931-028-3773</p>
+                                <p>Email: gacatimbang@gbox.adnu.edu.ph</p>
+                            </td>
+                            <td>
+                                <p>Phone: 0921-365-3017</p>
+                                <p>Email: kyronquillo@gbox.adnu.edu.ph</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr> 
+        
+        
+    </table>
+        
+</body>
+</html>
